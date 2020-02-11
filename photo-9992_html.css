@@ -2,6 +2,15 @@ a { color:#5D5D9E; }
 a:visited { color:#5D5D9E; } 
 a:active { color:#5C615E; } 
 a:hover { color:#B2B3B4; } 
+		a.wsp363ca6fd{ color:#FFFFFF; text-decoration: none} 
+		a.wsp363ca6fd:visited{ color:#FFFFFF; text-decoration: underline} 
+		a.wsp363ca6fd:active{ color:#FFFFFF; text-decoration: underline} 
+		a.wsp363ca6fd:hover{ color:#FFFFFF; text-decoration: underline} 
 body { background-color:#FFFFFF; padding:0;  margin: 0; }
 .textstyle1 { text-align:left; }
 #img_5acfb01a { vertical-align: bottom; position:relative; display: inline-block; width:100%; background:none;  }
+#button_612518cb { border-radius: 5px; position:absolute; left:3%; top:3%; width:150px; height:40px; background-color:#FFFFFF; box-shadow: 7px 7px 10px -5px rgba(0, 0, 0, 0.784314);  }
+.vcenterstyle1 { display: table; width: 100%; height: 100%; }
+.vcenterstyle2 { display: table-cell; vertical-align: middle; }
+.textstyle2 { text-align:center; }
+.textstyle3 { font-size:14pt; font-family:Arial, Helvetica, sans-serif; color:#0080C0; font-weight:bold; text-decoration:underline;  }
