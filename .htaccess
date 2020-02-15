@@ -1,9 +1,0 @@
-RewriteEngine On
-
-Redirect 301 /lisa/index.htm /kimilee22/index.htm
-Redirect 301 /lisa/videoschnippsel/index.htm /kimilee22/index.htm
-Redirect 301 /lisa/kimilee22.htm /kimilee22/index.htm
-Redirect 301 /bonnie/index.htm /girls/bonnie/jungespaar2822.htm
-Redirect 301 /girls/bonnie/index.htm /girls/bonnie/jungespaar2822.htm
-Redirect 301 /bonnie/jungespaar2822.htm /girls/bonnie/jungespaar2822.htm
-Redirect 301 /girls/juliaiva.htm /girls/juliaiva/index.htm
