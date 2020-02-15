@@ -1,3 +1,5 @@
+AddDefaultCharset ISO-8859-1
+
 RewriteEngine On
 
 Redirect 301 /lisa/index.htm /kimilee22/index.htm
