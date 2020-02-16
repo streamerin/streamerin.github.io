@@ -1,19 +1,4 @@
 RewriteEngine On
-RewriteCond %{HTTP_REFERER} !^$
-RewriteCond %{HTTP_REFERER} !^https://webcam-darstellerin.com/.*$      [NC]
-RewriteCond %{HTTP_REFERER} !^https://webcam-darstellerin.com$      [NC]
-RewriteRule .*\.(jpg|jpeg|gif|png|mp4)$ https://webcam-darstellerin.com [R,NC]
-
-RewriteCond %{HTTPS} !=on
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-RewriteCond %{HTTP_HOST} !^webcam-darstellerin\.com$ [NC]
-RewriteRule ^(.*)$ https://webcam-darstellerin.com/$1 [R=301,L]
-
-RewriteCond %{HTTP_HOST} (www\.)?webcam-darstellerin.schmidtb.heliohost.org
-RewriteRule (.*) https://webcam-darstellerin.com/$1 [R=301,L]
-
-
 
 Redirect 301 /lisa/index.htm /kimilee22/index.htm
 Redirect 301 /lisa/videoschnippsel/index.htm /kimilee22/index.htm
