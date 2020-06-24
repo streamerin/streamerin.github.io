@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteCond %{REMOTE_ADDR} ^(87\.179\.188\.223)
-RewriteRule .* https://streamerin.de/ [R=301,L]
