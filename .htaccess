@@ -1,0 +1,6 @@
+RewriteEngine on
+Redirect 301 /lisa/kimilee22.htm /girls/kimilee22/index.htm
+Redirect 301 /lisa/index.htm /girls/kimilee22/index.htm
+Redirect 301 /kimilee22/index.htm /girls/kimilee22/index.htm
+Redirect 301 /kimilee22/lisamaus1990.jpg /girls/kimilee22/lisamaus1990.jpg
+Redirect 301 /kimilee22/kimilee22.jpg /girls/kimilee22/kimilee22.jpg
