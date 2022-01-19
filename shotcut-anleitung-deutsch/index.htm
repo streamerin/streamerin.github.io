@@ -95,6 +95,20 @@ a {
 	text-align: justify;
 	margin-top: 25px;
 }
+.auto-style105 {
+	color: #AE1010;
+	font-size: 17pt;
+	text-align: left;
+	margin-top: 35px;
+}
+.auto-style107 {
+	text-align: justify;
+	margin-top: -6px;
+}
+.auto-style108 {
+	margin-left: 2px;
+	margin-right: 2px;
+}
 </style>
 <meta content="In dieser deutschen Shotcut Anleitung wollen wir erklären, wie man ein Bild oder ein Wasserzeichen in ein Video einfügen kann." name="description">
 <meta name="author" content="Urs Mayr">
@@ -139,7 +153,7 @@ a {
 	unkenntlich machen, einen Werbebanner verstecken oder eine 
 	zusätzliche Information in das Video einarbeiten (Eigenwerbung), gelingt 
 	dies mit Hilfe einer Bilddatei. Auf ähnliche Weise lässt sich ein 
-	Wasserzeichen (transparente Bilddatei) in ein Video einbetten, um einen 
+	<a href="#Wasserzeichen Shotcut" target="_self">Wasserzeichen</a> (transparente Bilddatei) in ein Video einbetten, um einen 
 	Content-Diebstahl zu erschweren.</p>
 	<p class="auto-style26">
 	<img alt="Wir fügen ein Bild in ein Shotcut Video ein." title="ein Bild einfügen, um etwas zu verstecken" class="auto-style103" height="244" src="shotcut-bild-in-video.jpg" style="float: left" width="320">Für unser 
@@ -157,7 +171,8 @@ a {
 	Bilddatei an, welche geeignet ist, den Only-Banner zu überlagern. Wie das 
 	geht, ist nicht Thema dieses Shotcut-Tutorials! Es wird sonst zu 
 	unübersichtlich...</p>
-	<h3 class="auto-style94">Wovon gehen wir aus? Von vorhandenen 
+	<h3 class="auto-style94"><a name="Bild in Shotcut Video einfügen Anleitung">
+	</a>Wovon gehen wir aus? Von vorhandenen 
 	Grundkenntnissen!</h3>
 	<p class="auto-style26">Shotcut wurde gestartet, das zu bearbeitende Video 
 	geöffnet. Das Video wurde bereits geschnitten. Es existiert also bereits 
@@ -199,6 +214,7 @@ a {
 	<p class="auto-style26">
 	<img height="342" src="neues-bild.jpg" width="570" title="das neue Bild suchen, finden und öffnen" alt="Wir öffnen das einzufügende Bild für unser Shotcut Video."></p>
 	<p class="auto-style26">
+	<a name="Filter hinzufügen"></a>
 	<img height="2" src="../dateien-deutsche-camgirls/kimilee22.png" width="568"></p>
 	<p class="auto-style104">Wir klicken nun oben in der Shotcut Symbolleiste auf 
 	<strong>Filter</strong> und fügen via <strong>+</strong> Symbol den <strong>Filter "Größe, Position und Drehung"</strong> der 
@@ -253,9 +269,8 @@ a {
 	<p class="auto-style104">Für das Feintuning bringen wir nun den 
 	Abspielpositions-Regler derart in Position, dass er <strong>die Inhalte</strong> beider Videospuren 
 	gleichzeitig erfasst. Ansonsten sehen Sie nur das neue Bild vor schwarzem 
-	Hintergrund in der Vorschau, nicht aber das Video. <span class="auto-style92">In unserem 
-	Beispiel können wir uns das sparen, weil beide Spuren vollständig belegt 
-	sind!</span></p>
+	Hintergrund oder nur das Video in der Vorschau, nicht aber das Video mit dem 
+	Bild.</p>
 	<p class="auto-style26">
 	<img height="319" src="abspielposition.jpg" width="570" title="vielleicht heist der wirklich so?!" alt="Der Abspielpositions-Regler muss das neue Bild und das Shotcut Video erfassen."></p>
 	<p class="auto-style26">
@@ -275,14 +290,48 @@ a {
 	<p class="auto-style26">
 	<img height="2" src="../dateien-deutsche-camgirls/kimilee22.png" width="568"></p>
 	<p class="auto-style26">Spätestens jetzt speichern wir das Projekt mal ab, 
-	zumal wir es geschafft haben. Bei Shotcut sollte man immer mal 
-	zwischenspeichern, weil das Programm je nach Hardware ganz gerne mal 
+	zumal wir es geschafft haben. Bei Shotcut sollte man <strong>immer mal 
+	zwischenspeichern</strong>, weil das Programm je nach Hardware ganz gerne mal 
 	abschmiert!</p>
 	<p class="auto-style26">Um den Erfolg unserer Arbeit beurteilen zu können, 
 	exportieren wir nun das Video in das gewünschte Format und schauen es uns 
 	z.B. im VLC-Video-Player an. Meistens erkennt man dann noch kleinere 
 	Unzulänglichkeiten, welche eine weitere Bearbeitung des Videos erfordern. So 
 	ist das nun mal!</p>
+	<h2 class="auto-style105"><a name="Wasserzeichen Shotcut"></a>Ein 
+	Wasserzeichen in ein Shotcut Video einfügen</h2>
+	<p class="auto-style26">Im Wesentlichen halten wir uns ganz genau an die
+	<a href="#Bild in Shotcut Video einfügen Anleitung" target="_self">
+	vorangegangene Anleitung</a> zum Einfügen eines Bildes (einschl. des 
+	Anlegens einer neuen Spur). Wir passen die Größe des eingefügten Bildes an 
+	und schieben es dorthin wo wir unser Wasserzeichen sehen wollen.</p>
+	<p class="auto-style107"><strong><em>
+	<img class="auto-style108" src="wasserzeichen.jpg" style="float: left" title="unser Wasserzeichen" alt="Ein Wasserzeichen für das Shotcut Video."></em>Ergänzend müssen wir das eingefügte Bild 
+	nun "transparentisieren", denn sonst wäre es ja kein Wasserzeichen, sondern ein Logo. Logo?</strong></p>
+	<p class="auto-style107">
+	Die 
+	Transparenz des neu eingefügten Bildes erreichen wir mit dem <strong>Filter "Deckkraft"</strong>, welchen wir der Filterliste hinzufügen, so wie wir es 
+	<a href="#Filter hinzufügen" target="_self">oben</a> 
+	beschrieben, mit dem Filter "Größe, Position und Drehung" gemacht haben.<br>
+	Wenn wir nun den Grad der Transparenz des Bildes justieren möchten, müssen 
+	wir zunächst den Filter "Deckkraft" in der Filterliste markieren, zumal wir 
+	ja nun mehrere Filter in der Filterliste zur Auswahl haben.<br>Wieder muss der 
+	"Abspielpositions-Regler" die Inhalte beider Spuren (Video und 
+	Wasserzeichen) erfassen, damit Sie in der Vorschau beides sehen können. Nun 
+	können wir den Transparenz-"Pegel" anpassen (siehe Abbildung unten).</p>
+	<p class="auto-style107"><em>Hinweise: Ein reines 
+	Wasserzeichen, welches nicht gleichzeitig als Logo herhalten soll, sollte 
+	derart transparent sein, dass man es mit dem Auge kaum noch wahrnehmen kann, 
+	damit es den harmonischen Gesamteindruck des Videos nicht stört. Um 
+	Content-Dieben die Retuschier-Arbeit zu erschweren, sollte man ggf. mit der 
+	Position des Wasserzeichens varieren (mal links oben, mal rechts unten...). 
+	Dazu ziehen wir das Bild/Wasserzeichen mehrfach von der Vorschau in die 
+	Spur, passen jeweils die Position an und legen dort die jeweilige Laufzeit 
+	fest. Wie das funktioniert, können Sie erahnen, wenn Sie die obige
+	<a href="#Bild in Shotcut Video einfügen Anleitung" target="_self">Anleitung 
+	zum Einfügen eines Bildes in ein Shotcut Video</a> durchexerziert haben.</em></p>
+	<p class="auto-style26">
+	<img alt="Wir fügen dem Shotcut Video ein Wasserzeichen hinzu." title="den Content-Diebstahl mittels Wasserzeichen erschweren" height="726" src="wasserzeichen-shotcut.png" width="570"></p>
 	<h3 class="auto-style94">Noch ein paar allgemeine Empfehlungen zur Arbeit in 
 	Shotcut</h3>
 	<p class="auto-style26"><strong><span class="auto-style100">Ausgangsmaterial 
@@ -291,7 +340,7 @@ a {
 	Endprodukt verarbeitet werden sollen, in den von Shotcut angelegten 
 	Projektordner! Sie brauchen nämlich alle verarbeiteten Dateien, wenn Sie das 
 	Video später noch einmal nachbearbeiten möchten. Löschen Sie versehentlich 
-	ein Bild von Ihrer Festplatte, weil Sie nicht mehr wissen, dass Sie es in 
+	ein Bild oder ein Video von Ihrer Festplatte, weil Sie nicht mehr wissen, dass Sie es in 
 	einem Shotcut-Video implementiert haben, zerschießen Sie sich das ganze 
 	Projekt. Häufig und in mehreren Videos verwendete Grafiken, können Sie 
 	einmalig im Shotcut Stamm-Ordner ablegen (Wasserzeichen, Kanal-Logo...).</p>
@@ -310,25 +359,27 @@ a {
 	in Shotcut erstellen möchten, empfiehlt es sich das lange Video grob 
 	vorzuschneiden. Ansonsten quillt Ihre Festplatte bald über, denn das 
 	Ausgangsmaterial sollte ja für spätere Nachbearbeitungen im jeweiligen 
-	Projekt-Ordner gespeichert bleiben. Für die grobe und verlusstfreie 
+	Projekt-Ordner gespeichert bleiben. Das grobe Vorschneiden und Zerlegen des 
+	Ausgangsvideos spart nicht nur Speicherplatz, sondern erleichtert die Arbeit 
+	in Shotcut ungemein!</p>
+	<p class="auto-style102">Für die grobe und verlusstfreie 
 	"Vorbeschneidung" empfehlen wir <span class="auto-style92"><strong>bedingt</strong></span>
 	<a href="https://www.afterdawn.com/software/audio_video/video_editing/free_video_editor.cfm/v1_4_12_415" target="_blank">
 	<strong>Free Video Editor 1.4.12.415</strong></a><strong>, eine ältere 
-	Version der Freeware</strong>. Die Update-Empfehlung nach jedem 
+	Version der Freeware</strong>. Die (nervige)Update-Empfehlung nach jedem 
 	Programm-Start ignorieren (schließen)!</p>
 	<p class="auto-style101"><span class="auto-style92"><strong>Achtung:</strong></span>
-	<span class="auto-style92"><em>Dieses Programm bietet die Installation von 
-	Werbekomponenten von Drittanbietern an. Die Installation dieser Komponenten 
-	ist optional. Die 
-	AdWare muss aber ggf. im Rahmen einer benutzerdefinierten Installation aktiv 
-	abgewählt werden! Hinterher trotzdem mit "AdwCleaner von Malwarebytes" nach 
+	<span class="auto-style92"><em>Dieses Programm installiert bei 
+	"Standardinstallation" Werbekomponenten von Drittanbietern. Die 
+	AdWare kann aber im Rahmen einer "benutzerdefinierten Installation" abgewählt werden! Hinterher trotzdem mit "AdwCleaner von Malwarebytes" nach 
 	installierter AdWare/Spyware suchen!</em></span></p>
 	<p class="auto-style101">Unsere gewagte Empfehlung resultiert aus der 
 	Tatsache, dass eben jenes Programm <strong>verlusstfrei</strong> arbeitet 
 	und somit die Qualität des Ausgangsmaterials erhalten bleibt. Dies ist bei 
-	anderen Programmen nicht der Fall. Das grobe Vorschneiden und Zerlegen des 
-	Ausgangsvideos spart nicht nur Speicherplatz, sondern erleichtert die Arbeit 
-	in Shotcut ungemein!</p>
+	anderen Programmen nicht der Fall.<br>Davon ab stellt "Free Video Editor" 
+	kein Ersatz für Shotcut dar. Es kann nicht framegenau schneiden, ermöglicht 
+	keine Überblend-Effekte, kein Hinzufügen von Bildern und so weiter und 
+	sofort.</p>
 	<p class="auto-style65"><a href="../girls/index.htm" target="_self"><strong>
 	deutsche Camgirls im Überblick</strong></a></p>
 </div>
