@@ -1,3 +1,10 @@
 User-agent: *
 Disallow: /dateien-deutsche-camgirls/de/
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
 Sitemap: https://webcam-darstellerin.com/urllist.txt
